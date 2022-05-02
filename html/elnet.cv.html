@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Nested Cross-validation</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for elnet.cv {PUMICE}"><tr><td>elnet.cv {PUMICE}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Nested Cross-validation</h2>
+
+<h3>Description</h3>
+
+<p>Nested Cross-validation
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+elnet.cv(
+  geno_training,
+  expression_training,
+  fold_training,
+  geno_validating,
+  expression_validating,
+  geno_tuning,
+  expression_tuning,
+  fold_tuning,
+  geno_testing,
+  expression_testing,
+  penalty_k
+)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>expression_training</code></td>
+<td>
+<p>training expression set</p>
+</td></tr>
+<tr valign="top"><td><code>fold_training</code></td>
+<td>
+<p>index for traning for fold</p>
+</td></tr>
+<tr valign="top"><td><code>geno_validating</code></td>
+<td>
+<p>validating genotype set</p>
+</td></tr>
+<tr valign="top"><td><code>expression_validating</code></td>
+<td>
+<p>validating expression set</p>
+</td></tr>
+<tr valign="top"><td><code>geno_tuning</code></td>
+<td>
+<p>tuning genotype set</p>
+</td></tr>
+<tr valign="top"><td><code>expression_tuning</code></td>
+<td>
+<p>tuning expression set</p>
+</td></tr>
+<tr valign="top"><td><code>fold_tuning</code></td>
+<td>
+<p>index for tuning for fold</p>
+</td></tr>
+<tr valign="top"><td><code>geno_testing</code></td>
+<td>
+<p>testing genotype set</p>
+</td></tr>
+<tr valign="top"><td><code>expression_testing</code></td>
+<td>
+<p>testing expression set</p>
+</td></tr>
+<tr valign="top"><td><code>penalty_k</code></td>
+<td>
+<p>penalty factor</p>
+</td></tr>
+<tr valign="top"><td><code>geno_traning</code></td>
+<td>
+<p>training genotype set</p>
+</td></tr>
+</table>
+
+
+<h3>Examples</h3>
+
+<pre>
+elnet.cv()
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>PUMICE</em> version 0.0.0.9000 <a href="00Index.html">Index</a>]</div>
+</body></html>

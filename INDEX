@@ -1,0 +1,23 @@
+PUMICE.compute_weight   Create gene expression prediction model using
+                        window type and penalty factor derived from the
+                        CV step
+PUMICE.nested_cv        Run nested cross-validation to determine which
+                        window type and penalty factor are optimal
+calc_R2                 Function for calculating coefficient of
+                        determination#' Read plink file through R
+constant_process        Function for mapping snps to genes in 3D method
+                        (e.g. Domain, Loop, TAD)
+elnet                   Cross-validation
+elnet.cv                Nested Cross-validation
+expression_scale        Function for scaling expression dataframe to
+                        mean of zero
+file_helper             Function for splitting jobs
+func_process            Function for mapping snps to genes in 3D method
+                        (e.g. Domain, Loop, TAD)
+geno_coord              Function for filling in snp coordinates
+geno_fill               Function for filling in missing genotype
+geno_scale              Function for scaling genotype dataframe to mean
+                        of zero and sd of one
+pchic_process           Function for mapping snps to genes in 3D method
+                        pchic
+read_plink_custom       Read plink file through R
