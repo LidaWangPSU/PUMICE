@@ -2,7 +2,7 @@ Package: PUMICE
 Title: (Prediction Using Models Informed by Chromatin conformations and Epigenomics
 Version: 0.0.0.9000
 Authors@R: 
-    person("Khunsriraksakul", "Chachrit (Poom)", "ckhunsriraksakul@pennstatehealth.psu.edu", role = c("aut", "cre")),
+    person("Khunsriraksakul", "Chachrit (Poom)", , "ckhunsriraksakul@pennstatehealth.psu.edu", role = c("aut", "cre")),
     person("Wang", "Lida", , "lzw5433@psu.edu", role = c("aut", "cre"))
 Description: PUMICE (Prediction Using Models Informed by Chromatin conformations and Epigenomics)
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
